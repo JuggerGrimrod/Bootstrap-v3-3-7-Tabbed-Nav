@@ -11,7 +11,7 @@ This demonstration uses .html pages and Bootstrap v3.3.7 JS/CSS assets.  All Boo
 The Raleway Font is provided via the Google Fonts API call, linked in the HEAD of each .html file.
 
 * ### /index.html is the content page, and the landing page for inbound links to navigation tabs; this file also contains on-page links to the navigation tabs:
-  * The *#navRow* div in **/index.html on lines 84 to 98** contans optional on-page links (*.onPageNav*) which work to show/hide tab-panes and *.active* tab displays farther down-page; these links do not have *data-toggle="tab"* attributes, and their behavior is defined by the *$('.onPageNav').click()* function in **/index.html on lines 33 to 52**.
+  * The *#navRow* div in **/index.html on lines 84 to 98** contains optional on-page links (*.onPageNav*) which work to show/hide tab-panes and *.active* tab displays farther down-page; these links do not have *data-toggle="tab"* attributes, and their behavior is defined by the *$('.onPageNav').click()* function in **/index.html on lines 33 to 52**.
   * The *.tabbable* div in **/index.html on lines 127 to 133** contains the default instance of Bootstrap tabbed-navigation; these tab links work to show/hide tab-panes and *.active* tab displays.
   * The JS and jQuery scripts in the HEAD of **/index.html on lines 33 to 51** define the on-page linked navigation tab behavior.
     * An additional script defines scrolling behavior in **/index.html on lines 45 to 49**; a *.click()* on an *.onPageNav* link will scroll to the relevant "shown" navigation tab-pane location, with the relevant nav tab *.active* indicator displayed.
